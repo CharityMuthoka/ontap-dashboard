@@ -1,0 +1,28 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6f8;
+  overflow-y: auto;
+}
+
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.task-card {
+  background: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.priority.high {
+  color: red;
+}
