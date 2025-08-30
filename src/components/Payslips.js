@@ -295,7 +295,7 @@ function Payslips() {
               flexWrap: 'wrap',
             }}
           >
-            {/* ---  Current Deductions  --- */}
+            {/* --  Current Deductions  -- */}
             <div style={{ flex: 1, minWidth: '300px' }}>
               <h3 style={{ marginBottom: '16px' }}>Current Month Deductions</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -357,7 +357,7 @@ function Payslips() {
               </div>
             </div>
 
-            {/* ---  Tax Info --- */}
+            {/* --  Tax Info -- */}
             <div style={{ flex: 1, minWidth: '300px' }}>
               <h3 style={{ marginBottom: '16px' }}>Tax information</h3>
               <div
