@@ -2461,7 +2461,7 @@ input:checked + .slider.round::before {
   background: #ffffff;
   border: 1px solid #e6e6e6;
   border-radius: 12px;
-  padding: 0;
+  padding: 20px;
   margin-top: 1.5rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 }
